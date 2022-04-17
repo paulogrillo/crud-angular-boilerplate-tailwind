@@ -1,0 +1,50 @@
+<div class="p-6 max-w-sm mx-auto flex justify-center">
+  <h1>Todos os cursos:</h1>
+</div>
+
+<div  class="grid grid-cols-4 gap-4 ">
+  <div
+    *ngFor="let value of coursesList"
+    class="p-6 mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4"
+  >
+    <div>
+      <div class="w-100 p-4" style="text-align: end;">
+        <fa-icon [icon]="faEllipsisVertical"></fa-icon>
+      </div>
+      <ul>
+          <li>
+            <h2 class="text-slate-700">
+              <span class="font-bold whitespace-pre-wrap">Curso:</span> {{ value.title }}
+            </h2>
+          </li>
+          <li>
+            <h2 class="text-slate-700">
+              <span class="font-bold">Duração:</span> {{ value.duration }}
+            </h2>
+          </li>
+          <li>
+            <h2 class="text-slate-700">
+              <span class="font-bold">Avaliação:</span> {{ value.rating }}
+            </h2>
+          </li>
+          <li>
+            <h2 class="text-slate-700">
+              <span class="font-bold">Alunos:</span> {{ value.student }}
+            </h2>
+          </li>
+          <li>
+            <h2 class="text-slate-700">
+              <span class="font-bold">Instrutor:</span> {{ value.instructor }}
+            </h2>
+            <img
+              src="{{ value.avatar }}"
+              width="100px"
+              height="100px"
+              class="inline-block h-12 w-12 rounded-full ring-2 ring-white"
+            />
+          </li>
+      </ul>
+    </div>
+
+  </div>
+</div>

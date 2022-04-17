@@ -1,0 +1,93 @@
+{
+  "courses": [
+    {
+      "title": "Introduction to Computer Science",
+      "instructor": "Dr. John Smith",
+      "departament": "Computer Science",
+      "duration": "3 weeks",
+      "rating": "4.5",
+      "student": "100",
+      "preview": "https://www.youtube.com/watch?v=rK-3mxMRJRw",
+      "avatar": "http://iuocatanduva.com.br/wp-content/uploads/2017/08/augusto.jpg"
+    },
+    {
+      "title": "English for Beginners",
+      "instructor": "Dr. John Smith",
+      "departament": "Computer Science",
+      "duration": "3 weeks",
+      "rating": "4.5",
+      "student": "100",
+      "preview": "https://www.youtube.com/watch?v=rK-3mxMRJRw",
+      "avatar": "https://www.accamargo.org.br/sites/default/files/Augusto-Takao-Akikubo-Rodrigues-Pereira.jpg"
+    },
+    {
+      "title": "The Complete JavaScript Course 2020: Build Real Projects!",
+      "instructor": "Dr. Stephany",
+      "departament": "Computer Science",
+      "duration": "3 weeks",
+      "rating": "4.5",
+      "student": "100",
+      "preview": "https://www.youtube.com/watch?v=rK-3mxMRJRw",
+      "avatar": "https://www.accamargo.org.br/sites/default/files/Joyce-Gouvea-Freire.jpg"
+    },
+    {
+      "title": "The Complete JavaScript Course 2020: Build Real Projects!",
+      "instructor": "Dr. Stephany",
+      "departament": "Computer Science",
+      "duration": "3 weeks",
+      "rating": "4.5",
+      "student": "100",
+      "preview": "https://www.youtube.com/watch?v=rK-3mxMRJRw",
+      "avatar": "https://www.accamargo.org.br/sites/default/files/Joyce-Gouvea-Freire.jpg"
+    },
+    {
+      "title": "The Complete JavaScript Course 2020: Build Real Projects!",
+      "instructor": "Dr. Stephany",
+      "departament": "Computer Science",
+      "duration": "3 weeks",
+      "rating": "4.5",
+      "student": "100",
+      "preview": "https://www.youtube.com/watch?v=rK-3mxMRJRw",
+      "avatar": "https://www.accamargo.org.br/sites/default/files/Joyce-Gouvea-Freire.jpg"
+    },
+    {
+      "title": "The Complete JavaScript Course 2020: Build Real Projects!",
+      "instructor": "Dr. Stephany",
+      "departament": "Computer Science",
+      "duration": "3 weeks",
+      "rating": "4.5",
+      "student": "100",
+      "preview": "https://www.youtube.com/watch?v=rK-3mxMRJRw",
+      "avatar": "https://www.accamargo.org.br/sites/default/files/Joyce-Gouvea-Freire.jpg"
+    },
+    {
+      "title": "The Complete JavaScript Course 2020: Build Real Projects!",
+      "instructor": "Dr. Stephany",
+      "departament": "Computer Science",
+      "duration": "3 weeks",
+      "rating": "4.5",
+      "student": "100",
+      "preview": "https://www.youtube.com/watch?v=rK-3mxMRJRw",
+      "avatar": "https://www.accamargo.org.br/sites/default/files/Joyce-Gouvea-Freire.jpg"
+    },
+    {
+      "title": "The Complete JavaScript Course 2020: Build Real Projects!",
+      "instructor": "Dr. Stephany",
+      "departament": "Computer Science",
+      "duration": "3 weeks",
+      "rating": "4.5",
+      "student": "100",
+      "preview": "https://www.youtube.com/watch?v=rK-3mxMRJRw",
+      "avatar": "https://www.accamargo.org.br/sites/default/files/Joyce-Gouvea-Freire.jpg"
+    }
+  ],
+  "Instructors": [
+    {
+      "name": "ssssssssssssssssssss",
+      "email": "sssssssssssssssssssss",
+      "avatar": "sssssssssssssssssssss",
+      "rating": 10,
+      "id": "Akv9bpZ"
+    }
+  ]
+}

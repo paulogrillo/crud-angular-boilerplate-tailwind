@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Curso</title>
+</head>
+<body>
+    <div>
+      <!--<form #formControl="ngForm" (ngSubmit)="onSubmit(formControl)">-->
+        <form>
+            <h1>Cadastrar Cursos</h1>
+
+        
+        <fieldset style="border: none;">
+          <legend>Título</legend>
+          <label>
+            <input type="text" style="width: 385px;" name="title" id="title" [(ngModel)]="course.title">
+          </label>
+        </fieldset>
+<!-- 
+        <fieldset style="border: none;">
+          <legend>Descrição:</legend>
+          <label>
+            <input type="text" style="width: 385px;" name="description" id="description" [(ngModel)]="course.description">
+          </label>
+        </fieldset> -->
+
+        <!-- <fieldset style="border: none;">
+          <legend>Url da Imagem:</legend>
+          <label>
+            <input type="text" style="width: 385px;" name="img" id="img" [(ngModel)]="courses.img">
+          </label>
+        </fieldset> -->
+
+        <!-- <fieldset style="border: none;">
+          <legend>Valor do curso:</legend>
+          <label>
+            <input type="number" style="width: 385px;" name="price" id="price" [(ngModel)]="courses.price">
+          </label>
+        </fieldset> -->
+
+
+<!-- 
+        <fieldset style="border: none;">
+            <legend>Linguagem:</legend>
+            <label>
+              <input type="radio" name="os" value="Java">
+              Java
+            </label>
+            <label>
+              <input type="radio" name="os" value="Python">
+              Python
+            </label>
+            <label>
+              <input type="radio" name="os" value="C#">
+              C#
+            </label>
+          </fieldset>
+
+          <fieldset style="border: none;">
+            <legend>Descrição:</legend>
+            <textarea rows="10" cols="50">
+            </textarea>
+          </fieldset>
+
+          <fieldset style="border: none;">
+            <legend>Imagem:</legend>
+            <input type="file" accept=".jpg,.png,.jpeg">
+          </fieldset> -->
+        
+          <button type="button" (click)="createCourse()">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
